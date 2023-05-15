@@ -21,7 +21,7 @@ elif grau == 2:
         if (b*b - 4*a*c) < 0:
             print("A equação não possui raízes reais")
         elif (b*b - 4*a*c) == 0:
-            print("A equação possui apenas uma raiz real")
+            print("A equação possui uma raiz real")
             raiz = (-b + math.sqrt(b*b - 4*a*c)) / (2*a)
             print("{:.2f}".format(raiz))
         elif (b*b - 4*a*c) > 0:
